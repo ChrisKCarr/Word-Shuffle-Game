@@ -156,8 +156,6 @@ def update_score(player_info, word):
     point = current_point + word_score(word)
     player_info.append(point)
 
-    
-
 def num_words_on_board(board, words):
     """ (list of list of str, list of str) -> int
 
