@@ -99,7 +99,6 @@ def board_contains_word_in_column(board, word):
         
     return False
 
-
 def board_contains_word(board, word):
     """ (list of list of str, str) -> bool
 
