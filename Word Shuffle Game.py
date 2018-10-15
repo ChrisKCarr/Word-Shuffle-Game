@@ -141,7 +141,6 @@ def word_score(word):
         return score*3
     return score
 
-
 def update_score(player_info, word):
     """ ([str, int] list, str) -> NoneType
 
