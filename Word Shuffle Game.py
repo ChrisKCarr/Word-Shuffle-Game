@@ -19,7 +19,6 @@ is represented as the list
     ['ANT', 'BOX', 'SOB', 'TO']
 """
 
-
 def is_valid_word(wordlist, word):
     """ (list of str, str) -> bool
 
@@ -33,7 +32,6 @@ def is_valid_word(wordlist, word):
     while i < len(wordlist):
         return word in wordlist
         i = i + 1
-
 
 def make_str_from_row(board, row_index):
     """ (list of list of str, int) -> str
@@ -51,7 +49,6 @@ def make_str_from_row(board, row_index):
         word = word + char
     return word
 
-
 def make_str_from_column(board, column_index):
     """ (list of list of str, int) -> str
 
@@ -68,7 +65,6 @@ def make_str_from_column(board, column_index):
         word =  word + (char[i])
     return word
 
-
 def board_contains_word_in_row(board, word):
     """ (list of list of str, str) -> bool    Return True if and only if one or more of the rows of the board contains word.
 
@@ -83,7 +79,6 @@ def board_contains_word_in_row(board, word):
             return True
 
     return False
-
 
 def board_contains_word_in_column(board, word):
     """ (list of list of str, str) -> bool
