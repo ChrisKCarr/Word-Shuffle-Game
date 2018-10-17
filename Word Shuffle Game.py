@@ -169,7 +169,6 @@ def num_words_on_board(board, words):
             count = count + 1
     return count
 
-
 def read_words(words_file):
     """ (file open for reading) -> list of str
 
@@ -181,8 +180,6 @@ def read_words(words_file):
     """
 
     lists = []
-    
-    
     
     for line in words_file:
         word = ''
